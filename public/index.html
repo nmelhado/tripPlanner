@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Trip Planner</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css" rel='stylesheet' />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./bundle.js" defer></script>
+  </head>
+  <body>
+    <div id="navBar">
+      <div class="spacer"></div>
+      <h1>Trip Planner</h1>
+      <div id="navButtons">
+        <a href="./">HOME</a>
+        <a href="./">CONTACT US</a>
+        <a href="./">ABOUT</a>
+      </div>
+      <div class="spacer"></div>
+    </div>
+    <div id="mapArea">
+        <div id="map"></div>
+        <div id="mapNav">
+          <div id="mapSelector">
+            <h3>Hotels:</h3>
+            <form method="POST" class="pinForm">
+              <select name="place">
+                <option value='-74.009234,40.712866'>Four Seasons Hotel New York Downtown</option>
+              </select>
+            </form>
+            <h3>Restaurants:</h3>
+            <h3>Activities:</h3>
+          </div>
+          <div id="itinerary">
+
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

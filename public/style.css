@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eeeeee;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  border-bottom: 1px solid #cacaca;
+}
+
+#navBar h1 {
+  text-align: center;
+  margin: 0;
+  flex-grow: 3;
+}
+
+#navButtons {
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  flex-grow: 2;
+  justify-content: space-between;
+}
+
+#navButtons a{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.spacer {
+  flex-grow: 2;
+}
+
+#mapArea {
+  display: flex;
+  height: calc(100vh - 100px);
+  width: 100vw;
+}
+
+#map {
+  flex-grow: 4;
+}
+
+#mapNav {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#mapSelector {
+  flex-grow: 1;
+  background-color: rgb(212, 228, 241);
+}
+
+#itinerary {
+  flex-grow: 1;
+  background-color: rgb(212, 241, 235);
+}
