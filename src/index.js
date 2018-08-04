@@ -3,7 +3,7 @@ console.log("It's alive!")
 const mapboxgl = require("mapbox-gl");
 const { buildMarker, disectForm } = require('./marker');
 
-mapboxgl.accessToken = "pk.eyJ1Ijoibm1lbGhhZG8iLCJhIjoiY2prZnVqM3hyNHM5OTN3bWw2dXAwdWdzcSJ9.Z03hgpW0rDTUdCMDqtx-hg";
+mapboxgl.accessToken = "";
 
 const map = new mapboxgl.Map({
   container: "map",
